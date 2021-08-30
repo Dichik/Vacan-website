@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../main.css">
+	<link rel="icon" type="icon_path" href="../res/plane.png">
+	<script src="../main.js"></script>
+	<title>Vacan - Log In</title>
+</head>
+<body>
+	<header id="home-header">
+		<div id="menu-icon-back" onclick="open_file('menu_page.html')"></div>
+		<div id="home-icon" onclick="open_file('index.html')"></div>
+	</header>
+
+	<img src="../res/rec-high.png" id="img-high">
+	<img src="../res/rec-down.png" id="img-low">
+
+	<form id='form-register'>
+		<hr id="line-left">
+		<span id="register-text">Check Plan</span>
+		<hr id="line-right">
+
+		<input type="name" name="name-1" id="name" required>
+		<input type="password" name="password-1" id="password-id" required>
+
+		<div id="submit-button" onclick="checkPlan()">Submit</div>
+
+		<script type="text/javascript">
+			document.getElementById("name")
+				.setAttribute("placeholder", "Enter your id");
+			document.getElementById("password-id")
+				.setAttribute("placeholder", "Password");
+		</script>
+	</form>
+
+	<img src="../res/group-30.png" id="group-30">
+	<img src="../res/group-31.png" id="group-31">
+	<img src="../res/group-32.png" id="group-32">
+	<img src="../res/group-33.png" id="group-33">
+	
+</body>
+</html>
