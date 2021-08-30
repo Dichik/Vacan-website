@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../main.css">
+	<link rel="icon" type="icon_path" href="../res/plane.png">
+	<script src="../main.js"></script>
+	<title>Vacan - Choose your way</title>
+</head>
+<body>
+	<header id="home-header">
+		<div id="menu-icon-back" onclick="open_file('menu_page.html')"></div>
+		<div id="home-icon" onclick="open_file('index.html')"></div>
+	</header>
+
+	<img src="../res/rec-high.png" id="img-high">
+	<img src="../res/rec-down.png" id="img-low">
+
+	<label class="travelto-label" id="from-label">From</label>
+	<label class="travelto-label" id="to-label">To</label>
+
+	<div class="choose-destination" id="from-field">
+		<span id="from-field-text">Choose city</span>
+		<div class="icon-back" onclick="open_file('travelto-options-from.html')"></div>
+	</div>
+	<div class="choose-destination" id="to-field">
+		<span id="from-field-text">Choose city</span>
+		<div class="icon-back"></div>
+	</div>
+	<img id="huge-arrow" src="../res/huge-arrow.png">
+
+
+	<div class="travel-to-sumbit" id="submit-button" onclick="open_file('travelto-preview.html')">Submit</div>
+
+	<script type="text/javascript">
+		document.getElementById("submit-button").style.left = "590px";
+		document.getElementById("submit-button").style.top = "450px";
+	</script>
+</body>
+</html>

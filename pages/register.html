@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../main.css">
+	<link rel="icon" type="icon_path" href="../res/plane.png">
+	<script src="../main.js"></script>
+	<title>Vacan - Register Now</title>
+</head>
+<body>
+	<header id="home-header">
+		<div id="menu-icon-back" onclick="open_file('menu_page.html')"></div>
+		<div id="home-icon" onclick="open_file('index.html')"></div>
+	</header>
+
+	<img src="../res/rec-high.png" id="img-high">
+	<img src="../res/rec-down.png" id="img-low">
+
+	<form id='form-register'>
+		<hr id="line-left">
+		<span id="register-text">Register</span>
+		<hr id="line-right">
+
+		<input type="username" name="name" id="name" required>
+		<input type="email" name="email" id="email" required>
+		<input type="password" name="password" id="password-id" required>
+
+		<div id="submit-button" onclick="checkInput()">Submit</div>
+
+		<div id="log-in-text" onclick="open_file('login.html')">Already registared?</div>
+
+		<script type="text/javascript">
+			document.getElementById("name")
+				.setAttribute("placeholder", "Name");
+			document.getElementById("email")
+				.setAttribute("placeholder", "Email");
+			document.getElementById("password-id")
+				.setAttribute("placeholder", "Password");
+		</script>
+	</form>
+
+	<img src="../res/group-30.png" id="group-30">
+	<img src="../res/group-31.png" id="group-31">
+	<img src="../res/group-32.png" id="group-32">
+	<img src="../res/group-33.png" id="group-33">
+	
+</body>
+</html>
